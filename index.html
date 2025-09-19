@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillQuest — RPG Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🧙‍♂️ SkillQuest</h1>
+    <p>Track your real-life growth and level up your RPG self!</p>
+  </header>
+
+  <section id="character" class="card">
+    <h2>🧾 Character Scroll</h2>
+    <p><strong>Name:</strong> <span id="char-name">Chhitiz Srivastava</span></p>
+    <p><strong>Title:</strong> Skill Prodigy</p>
+    <p><strong>Level:</strong> <span id="char-level">1</span></p>
+    <p><strong>XP:</strong> <span id="char-xp">0</span> / 100</p>
+    <div class="xp-bar"><div id="xp-fill"></div></div>
+  </section>
+
+  <section id="quests" class="card">
+    <h2>📜 Daily Quests</h2>
+    <ul id="quest-list"></ul>
+  </section>
+
+  <button id="complete-quest">Complete Random Quest</button>
+
+</body>
+<script src="script.js"></script>
+</html>
